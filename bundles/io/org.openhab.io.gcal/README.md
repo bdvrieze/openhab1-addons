@@ -29,6 +29,11 @@ Before you can integrate this service with your Google Calendar, you must have a
 * Put **Name** and press the **Create** button.
 * Copy **client id** and **client secret**
 
+You also need to enable the Google calendar API.
+
+* Login to your [Google API Manager](https://console.developers.google.com).
+* On the dashboard select Google Calendar API and enable.
+
 ## Service Configuration
 
 This service can be configured in the file `services/gcal.cfg`.
